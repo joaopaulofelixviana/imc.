@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+    <title>Document</title>
+</head>
+      <header>
+        <h1>Calculadora de IMC</h1>
+        <p>Calcule seu Índice de Massa Corporal</p>
+    </header>
+
+    <main>
+        <div class="calculator-card">
+            <div class="input-group">
+                <label for="peso">Peso</label>
+                <input id="peso" type="text" placeholder="Ex: 70.5">
+                <i class="icon fas fa-weight"></i>
+            </div>
+            
+            <div class="input-group">
+                <label for="altura">Altura</label>
+                <input id="altura" type="text" placeholder="Ex: 1.75">
+                <i class="icon fas fa-ruler-vertical"></i>
+            </div>
+            
+            <button id="calcularBtn">
+                <i class="fas fa-calculator"></i> Calcular IMC
+            </button>
+        </div>
+
+        <div class="result-card" id="resultCard">
+            <h3>Seu Resultado</h3>
+            <div class="result-item">
+                <p>Seu IMC é:</p>
+                <div class="value" id="imc">--</div>
+            </div>
+            <div class="result-item">
+                <p>Classificação:</p>
+                <div class="classification" id="classificacao">--</div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Calculadora de IMC &copy; 2024 | Desenvolvido com ❤️</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="mask.js"></script>
+</body>
+</html>
