@@ -5,7 +5,7 @@
  *
  * Created by Joao Paulo on 2025-05-08. Please report any bug at github.com/joaopaulofelixviana/jQuery-Mask-Plugin
  *
- * Copyright (c) 2012 Joao Paulo http://joaopaulo.com
+ * Copyright (c) 2024 Joao Paulo http://joaopaulo.com
  *
  * The MIT License (http://www.opensource.org/licenses/mit-license.php)
  *
@@ -603,3 +603,4 @@
     }, globals.watchInterval);
 
 }, window.jQuery, window.Zepto));
+
