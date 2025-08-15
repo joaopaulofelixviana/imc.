@@ -1,11 +1,11 @@
 /**
  * jquery.mask.js
  * @version: v1.14.16
- * @author: Joao Paulom
+ * @author: Joao Paulo
  *
  * Created by Joao Paulo on 2025-05-08. Please report any bug at github.com/joaopaulofelixviana/jQuery-Mask-Plugin
  *
- * Copyright (c) 2012 Igor Escobar http://igorescobar.com
+ * Copyright (c) 2012 Joao Paulo http://joaopaulo.com
  *
  * The MIT License (http://www.opensource.org/licenses/mit-license.php)
  *
@@ -601,4 +601,5 @@
             $.applyDataMask();
         }
     }, globals.watchInterval);
+
 }, window.jQuery, window.Zepto));
